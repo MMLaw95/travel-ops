@@ -142,7 +142,9 @@ nav ul {
   padding: 4rem 0rem;
   background: -webkit-linear-gradient(#131c27, #663b34);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* -webkit-text-fill-color: transparent; */
+  color: transparent;
 }
 
 .cloud {
