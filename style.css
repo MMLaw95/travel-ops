@@ -211,6 +211,11 @@ nav ul {
   margin: 2rem;
 }
 
+.card .travel {
+  max-width: 12%;
+  margin: 2rem;
+}
+
 .card h4,
 .card p {
   padding: 1rem;
