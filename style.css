@@ -44,7 +44,8 @@ a {
 }
 
 button {
-  padding: 2rem 6rem;
+  padding: 2rem 5rem;
+  /* padding: 2rem 6rem; */
   background: #4c6e97;
   border: none;
   color: white;
