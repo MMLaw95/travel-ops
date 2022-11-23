@@ -178,7 +178,7 @@ nav a:hover {
 
 /* Benefits section */
 
-.benefits-head {
+.features-head {
   background: #343c44;
   padding: 3rem;
   min-height: 30vh;
@@ -190,7 +190,7 @@ nav a:hover {
   text-align: center;
 }
 
-.benefits-head h3 {
+.features-head h3 {
   padding: 1rem;
 }
 
