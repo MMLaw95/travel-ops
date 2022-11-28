@@ -250,10 +250,6 @@ nav a:hover {
   border-radius: 20px;
 }
 
-.footer-wrapper a:hover {
-  color: #27394e;
-}
-
 .form-head {
   text-align: center;
   padding: 4rem;
@@ -294,6 +290,10 @@ footer {
   align-items: center;
   min-height: 10vh;
   flex-wrap: wrap;
+}
+
+.footer-wrapper a:hover {
+  color: #27394e;
 }
 
 footer h5 {
