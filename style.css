@@ -55,14 +55,16 @@ button {
 }
 
 button:hover {
-  background: #bc8f8f;
+  background: #4d6f97;
+  /* background: #bc8f8f; */
+  /* background: rosybrown; */
   outline-style: solid;
 }
 
 /* Nav section with Hero */
 
 .main-head {
-  background: #185660;
+  background: #396070;
   /* background: #27394e; */
   /* background: #865c5d; */
   color: white;
@@ -234,7 +236,9 @@ nav a:hover,
 }
 
 .card-icon {
-  background: rosybrown;
+  background: #4d6f97;
+  /* background: #395270; */
+  /* background: rosybrown; */
 }
 
 /* Contact section */
@@ -286,7 +290,7 @@ nav a:hover,
 
 footer {
   color: white;
-  background: #144850;
+  background: #396070;
   /* background: #865c5d; */
 }
 
