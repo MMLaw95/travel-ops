@@ -327,7 +327,13 @@ footer ul {
 
 /* Media queries */
 
-@media screen and (max-width: 932px) {
+@media (max-width: 1295px) {
+  #contact {
+    background-position: center top 55%;
+  }
+}
+
+@media (max-width: 932px) {
   html {
     font-size: 45%;
   }
