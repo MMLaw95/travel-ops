@@ -62,7 +62,9 @@ button:hover {
 /* Nav section with Hero */
 
 .main-head {
-  background: #865c5d;
+  background: #185660;
+  /* background: #27394e; */
+  /* background: #865c5d; */
   color: white;
   position: sticky;
   top: 0px;
@@ -87,8 +89,13 @@ nav ul {
   list-style: none;
 }
 
-nav a:hover {
-  color: #27394e;
+nav a:hover,
+.footer-wrapper:hover {
+  /* color: #27394e; */
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+  text-decoration-thickness: 0.1rem;
 }
 
 #logo {
@@ -100,7 +107,7 @@ nav a:hover {
 .hero {
   min-height: 90vh;
   background: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
-    url(./img/landing-page.jpg);
+    url(./img/hawaii.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -179,7 +186,7 @@ nav a:hover {
 /* Benefits section */
 
 .features-head {
-  background: #343c44;
+  background: #27394e;
   padding: 3rem;
   min-height: 30vh;
   display: flex;
@@ -235,7 +242,7 @@ nav a:hover {
 #contact {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
-    url(./img/contact-mountain.png);
+    url(./img/mountain.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -279,7 +286,8 @@ nav a:hover {
 
 footer {
   color: white;
-  background: #865c5d;
+  background: #144850;
+  /* background: #865c5d; */
 }
 
 .footer-wrapper {
@@ -290,10 +298,6 @@ footer {
   align-items: center;
   min-height: 10vh;
   flex-wrap: wrap;
-}
-
-.footer-wrapper a:hover {
-  color: #27394e;
 }
 
 footer h5 {
