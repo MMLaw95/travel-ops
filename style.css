@@ -131,7 +131,7 @@ nav a:hover,
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
     url(./img/new-york-page.png);
-  background-position: center 36%;
+  background-position: center;
   background-size: cover;
   display: flex;
   align-items: center;
