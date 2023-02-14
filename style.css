@@ -129,9 +129,9 @@ nav a:hover,
 
 #locations {
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
-    url(./img/new-york-page.png);
-  background-position: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), transparent),
+    url(./img/austin.png);
+  background-position: center top 100%;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -148,6 +148,8 @@ nav a:hover,
   padding: 1rem 0rem;
   text-decoration: underline;
   text-decoration-thickness: 0.5rem;
+  position: absolute;
+  top: 17%;
 }
 
 .locations-head h3 {
@@ -157,23 +159,30 @@ nav a:hover,
   background-clip: text;
   /* -webkit-text-fill-color: transparent; */
   color: transparent;
+  position: absolute;
+  top: 23%;
+}
+
+.locations-head-no-cloud {
+  position: absolute;
+  top: 10%;
 }
 
 .cloud {
   position: absolute;
-  top: 0%;
+  top: -15%;
   right: 0%;
+  opacity: 0.3;
 }
 
 .moving-cloud-1 {
-  animation: cloudAnimation 3s infinite alternate ease-in-out;
+  animation: cloudAnimation 4s infinite alternate ease-in-out;
 }
 
 .moving-cloud-2 {
-  top: 10%;
-  z-index: -1;
-  opacity: 0.5;
-  animation: cloudAnimation 3.1s infinite alternate ease-in-out;
+  top: -5%;
+  z-index: 0;
+  animation: cloudAnimation 4.9s infinite alternate ease-in-out;
 }
 
 @keyframes cloudAnimation {
@@ -331,6 +340,11 @@ footer ul {
   #contact {
     background-position: center top 55%;
   }
+
+  .cloud {
+    height: 40rem;
+    pointer-events: none;
+  }
 }
 
 @media (max-width: 932px) {
@@ -346,24 +360,27 @@ footer ul {
     padding: 2rem;
   }
 
-  .cloud {
-    height: 40rem;
-    pointer-events: none;
-  }
-
-  .moving-cloud-1 {
-    z-index: -1;
-  }
-
-  .moving-cloud-2 {
-    z-index: -2;
+  .locations-head h2 {
+    position: absolute;
+    top: 28%;
   }
 
   .locations-head h3 {
     background: rgba(19, 28, 39, 0.8);
     -webkit-text-fill-color: white;
     padding: 1.5rem;
+    width: 90%;
+    position: absolute;
+    top: 42.5%;
   }
+
+  /* .moving-cloud-1 {
+    z-index: -1;
+  } */
+
+  /* .moving-cloud-2 {
+    z-index: -2;
+  } */
 
   .form-wrapper {
     width: 100%;
@@ -377,3 +394,49 @@ footer ul {
     padding-bottom: 3rem;
   }
 }
+
+@media (max-width: 700px) {
+  #locations {
+    background-position: center left 66%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 591px) and (max-width: 932px) {
+  .locations-head h3 {
+    top: 36%;
+  }
+}
+
+@media (max-width: 590px) {
+  .locations-head h3 {
+    top: 41%;
+  }
+}
+
+@media (max-width: 475px) {
+  .locations-head h3 {
+    top: 43%;
+  }
+}
+
+@media (max-width: 377px) {
+  .locations-head h2 {
+    top: 30%;
+  }
+  .locations-head h3 {
+    top: 54.5%;
+  }
+}
+
+@media (max-width: 320px) {
+  .locations-head h2 {
+    top: 25%;
+  }
+}
+
+/* @media (max-width: 377px) {
+  .locations-head h3 {
+    top: 48%;
+  }
+} */
