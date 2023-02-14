@@ -371,7 +371,7 @@ footer ul {
     padding: 1.5rem;
     width: 90%;
     position: absolute;
-    top: 42.5%;
+    top: 36%;
   }
 
   /* .moving-cloud-1 {
@@ -395,6 +395,12 @@ footer ul {
   }
 }
 
+@media only screen and (max-width: 932px) and (orientation: landscape) {
+  .locations-head h3 {
+    top: 44%;
+  }
+}
+
 @media (max-width: 700px) {
   #locations {
     background-position: center left 66%;
@@ -402,11 +408,11 @@ footer ul {
   }
 }
 
-@media only screen and (min-width: 591px) and (max-width: 932px) {
+/* @media only screen and (min-width: 591px) and (max-width: 932px) {
   .locations-head h3 {
     top: 36%;
   }
-}
+} */
 
 @media (max-width: 590px) {
   .locations-head h3 {
